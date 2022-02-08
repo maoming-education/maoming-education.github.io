@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="https://572625.yichafen.com/Public/static/images/favicon.ico">
+	<link rel="Bookmark" href="https://572625.yichafen.com/Public/static/images/favicon.ico">
+	<title>茂名市普通高中分班查询</title>
+</head>
+	<body><h1 style="text-align: center; background-image:url(https://572625.yichafen.com/Public/Bj/csspics/banner.jpg);color:white;width: 1210px;height: 120px;line-height:110px;">茂名普通高中分班查询</h1>
+	<script type="text/javascript">
+
+	function validateForm()
+{
+  var x=document.forms["name"]["id"].value;
+  if (x==null || x==""||x==0)
+  {
+    alert("内容不能为空");
+    return false;
+  }
+  else
+  {
+  	alert("true");
+  	window.location.href="https://maoming-education.github.io/php.html";
+  	return false;
+  }
+}
+	
+	</script>
+	<div style="width: 500px;height: 190px;background-image: linear-gradient(#baebff, #ffffff);margin:auto;border-left:5px solid #ccc;border-right:5px solid #ccc;border-top:5px solid #ccc;border-bottom:5px solid #ccc;" align="center">
+	<table border="1" >
+	<h3>2022年高一第二学期分班查询</h3>
+	<hr>
+	<tr>
+     	 <td>姓名</td>
+    	 <td><form name="name" action="http://maoming-education.github.io" onsubmit="return validateForm()" method="post"><input type="text" name="name" size="50" maxlength="50" placeholder="请输入姓名"></td>
+   	</tr>
+   	<tr>
+   		<td>学号</td>
+   		<td><form name="id" action="http://maoming-education.github.io" onsubmit="return validateForm()" method="post"><input type="text" name="id" size="50" maxlength="50" placeholder="请输入10位学号"></td>
+   	</tr>
+   	
+ 	</table>
+ 	<br>
+ 	<div><button id="get" onclick="validateForm()">点我查询</button></div></div>
+	
+</body>
+</html>
